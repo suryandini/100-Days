@@ -1,0 +1,17 @@
+public class DataPrinting {
+    public static void main(String[] args) {
+        // Mendefinisikan beberapa variabel dengan data yang ingin dicetak
+        String nama = "John Doe";
+        int usia = 30;
+        double tinggi = 175.5;
+
+        // Menampilkan data menggunakan System.out.println()
+        System.out.println("Nama: " + nama);
+        System.out.println("Usia: " + usia + " tahun");
+        System.out.println("Tinggi: " + tinggi + " cm");
+        
+        // Menggunakan System.out.print() untuk mencetak tanpa ganti baris
+        System.out.print("Ini adalah contoh penggunaan System.out.print() ");
+        System.out.println("tanpa membuat baris baru.");
+    }
+}
